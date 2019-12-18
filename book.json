@@ -1,31 +1,46 @@
 {
-    "plugins": ["youtube", "accordion", "styled-blockquotes", "localized-footer", "edit-link", "githubcontributors", "image-captions"],
-    "language": "es",
-    "variables": {
-        "title": "La radio en la escuela",
-        "authors": [
-            "Equipo CATEDU",
-            "___________"
-        ],
-        "collaborators": [
-            { "name": "_________", "edited": "_____________" }
-        ]
+  "plugins": [
+    "youtube",
+    "accordion",
+    "styled-blockquotes",
+    "localized-footer",
+    "edit-link",
+    "githubcontributors",
+    "image-captions",
+    "ga"
+  ],
+  "language": "es",
+  "variables": {
+    "title": "La radio en la escuela",
+    "authors": [
+      "Equipo CATEDU",
+      "___________"
+    ],
+    "collaborators": [
+      {
+        "name": "_________",
+        "edited": "_____________"
+      }
+    ]
+  },
+  "pluginsConfig": {
+    "localized-footer": {
+      "hline": true,
+      "filename": "./FOOTER.md"
     },
-    "pluginsConfig": {
-        "localized-footer": {
-            "hline": true,
-            "filename": "./FOOTER.md"
-        },
-        "image-captions": {
-            "caption": "Imagen - _CAPTION_"
-        },
-        "edit-link": {
-            "base": "https://github.com/catedu/radio/edit/master",
-            "label": "Edita esta página"
-        },
-        "githubcontributors": {
-            "githubOwner": "catedu",
-            "githubRepository": "radio"
-        }
+    "image-captions": {
+      "caption": "Imagen - _CAPTION_"
+    },
+    "edit-link": {
+      "base": "https://github.com/catedu/radio/edit/master",
+      "label": "Edita esta página"
+    },
+    "githubcontributors": {
+      "githubOwner": "catedu",
+      "githubRepository": "radio"
+    },
+    "ga": {
+      "token": "UA-135691041-2"
     }
+  }
 }
